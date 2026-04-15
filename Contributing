@@ -1,0 +1,58 @@
+# Contributing to awesome-book-writing-suite
+
+Thanks for your interest in improving this project! Contributions are welcome — whether it's refining a skill, improving the orchestration logic, fixing documentation, or adding new capabilities.
+
+---
+
+## What you can contribute
+
+- **Skill improvements** — sharper trigger descriptions, better phase logic, cleaner outputs in any of the 12 `SKILL.md` files
+- **New skills** — additional stages not yet covered (e.g. `cover-copy-tester`, `chapter-titler`, `index-builder`)
+- **Orchestration improvements** — better routing logic, handoff notes, or session behaviour in `PROJECT_INSTRUCTIONS.md`
+- **New example outputs** — sample SVGs, pipeline diagrams, or annotated outputs in the `examples/` folder
+- **Documentation** — clearer explanations, better trigger examples, or improved README sections
+
+---
+
+## How to contribute
+
+1. **Fork** the repository
+2. **Create a branch** for your change
+   ```
+   git checkout -b improve/red-team-critic-logic
+   ```
+3. **Make your changes** — keep edits focused and minimal
+4. **Test your changes** — paste the updated skill or project instructions into Claude and verify the output is correct and consistent
+5. **Commit** with a clear message
+   ```
+   git commit -m "Strengthen red-team-critic argument attack patterns"
+   ```
+6. **Open a Pull Request** — describe what you changed, why, and how you tested it
+
+---
+
+## Guidelines
+
+**For skill files:**
+- Keep trigger descriptions precise — they determine when Claude invokes the skill
+- Don't blur boundaries between skills — each skill has a specific role; keep it
+- Test against at least 3 different prompts before submitting
+- Preserve the existing output format unless you have a strong reason to change it
+
+**For PROJECT_INSTRUCTIONS.md:**
+- The pipeline sequence is intentional — don't change stage order without discussion
+- Handoff notes must carry forward only what the next skill actually needs
+- The Review Loop (steps 7–10) must remain intact per chapter
+- State format changes require updating all references to that field
+
+**For new skills:**
+- Open an issue first to discuss whether the skill fits the pipeline
+- Follow the existing `SKILL.md` frontmatter format (name, description, triggers)
+- Define clearly which existing skill(s) it sits between
+- Add the new skill to `PROJECT_INSTRUCTIONS.md` and `README.md`
+
+---
+
+## Questions?
+
+Open an [issue](../../issues) and tag it as a question.
