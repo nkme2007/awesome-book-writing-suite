@@ -1,0 +1,30 @@
+# Changelog
+
+All notable changes to the awesome-book-writing-suite will be documented here.
+
+The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+---
+
+## [1.0.0] — 2026-04-15
+
+### Added
+- `PROJECT_INSTRUCTIONS.md` — full studio orchestrator for Claude Projects
+- 12 skills covering the complete book writing pipeline:
+  - `idea-stress-tester` — pre-writing idea validation
+  - `voice-calibrator` — author voice fingerprint extraction
+  - `book-architect` — book positioning and chapter architecture
+  - `narrative-spine-builder` — thesis evolution, flow logic, motifs
+  - `research-evidence-builder` — evidence, case studies, counterarguments
+  - `chapter-builder` — full chapter drafting from briefs
+  - `reader-journey-mapper` — engagement curve and drop-off mapping
+  - `red-team-critic` — hostile argument and logic review
+  - `beta-reader-simulator` — persona-based reader simulation
+  - `editor-sharpener` — prose clarity, flow, and authority polish
+  - `book-launch-kit` — complete launch asset generation
+  - `content-repurposer` — book-to-platform content engine
+- Cross-skill handoff system with clean output passing between stages
+- Chapter-level Review & Polish Loop (red-team → beta-read → journey-map → edit)
+- Book Project State tracking across sessions
+- Pipeline SVG diagram
+- MIT License
